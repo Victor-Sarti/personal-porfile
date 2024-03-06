@@ -63,7 +63,7 @@ main > span{
     display: flex;
     flex-direction: column;
     padding-left: 251px;
-    padding-top: 330px;
+    padding-top: 130px;
     color: #A31010;
     gap: 100px;
 }
@@ -80,7 +80,7 @@ span > h2{
  .saiba{
     width: 310px;
     height: 65px;
-    border-radius: 50px;
+    border-radius: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 24px;
     color: rgb(255, 255, 255);
@@ -89,21 +89,109 @@ span > h2{
  
  main > .skin{
     width: 705px;
-    height: 697px;
+    height: 6 9px;
     display: flex;
-    padding-right: 252px;
-    padding-top: 289px;
+    justify-content: center;
+    margin-right: 180px;
+    
+    
  }
 
  .redes{
-    gap: 15px;
+    gap: 18px;
     display: flex;
     width: 40px;
     height: 40px;
     justify-content: start;
-    align-items: flex-end;
  }
  .tudo{
     display: flex;
     flex-direction: column;
+ padding-top: 289px;
+ padding-right: 252px;
  }
+
+ .me{
+    width: 100%;
+    height: 1080px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+
+ div > h1{
+    font-size: 64px;
+    color: #A31010;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.name > h2{
+    margin-top: 10px;
+   width: 1032px;
+   height: 56px;
+    color: #9E3D3D;
+    text-align: center;
+}
+
+div > br {
+    display: flex;
+    justify-content: center;
+ }
+
+.skills > span {
+    color: #9E3D3D;
+}
+
+.skills{
+    margin-top: 150px;
+
+}
+
+.maiorzão{
+    width: 998px;
+    height: 367px;
+    border: 1px solid yellow;
+}
+
+.maiorzão > .card{
+    width: 212px;
+    height: 98px;
+    color: rgb(236, 5, 5);
+    font-size: 36px;
+    border: 1px solid green;
+    display: flex;
+    padding-left: 40px;
+}
+
+
+h1 > p{
+    color:  #9E3D3D;
+    display: flex;
+    
+}
+
+.content-circle{
+    display: flex;
+    gap: 5px;
+}
+ 
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.paint{
+    opacity: 0.4;
+}
+
+.card{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+   gap: 10px;
+}
