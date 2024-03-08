@@ -119,18 +119,26 @@ span > h2{
     align-items: center;
     
  }
-
- div > h1{
+.ha > h1{
     font-size: 64px;
     color: #A31010;
     display: flex;
+    justify-content: center;
     gap: 10px;
 }
+
+.name > h1{
+    color: #ee3a1f ;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+}
+
 .name > h2{
     margin-top: 10px;
    width: 1032px;
    height: 56px;
-    color: #9E3D3D;
+    color: #ff5232;
     text-align: center;
 }
 
@@ -168,7 +176,7 @@ div > br {
 
 
 h1 > p{
-    color:  #9E3D3D;
+    color:  #ffffff;
     display: flex;
     
 }
@@ -349,31 +357,32 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     margin-left: 200px;
-    gap: 50px;
+    
+    align-items: flex-start;
 }
 
-div> h1 {
-    
+.M{
     color: #9E3D3D;
-    
+    font-size: 64px;
 }
 
-h1 >p{
+.P{
     
     color: #ff0000;
-    
-  
+    font-size: 64PX;
+    display: flex;
+    gap: 80px;
 }
 
-
-div > h2{
+.P > p{
     font-size: 24px;
-    color: #9E3D3D ;
+    width: 398px;
+    height: 160px;
+    
 }
 
 .botoes{
 display: flex;
-margin-top: 170px;
 gap: 12px;
 margin-left: 200px;
     }
@@ -414,4 +423,87 @@ margin-left: 200px;
     font-size: 20px;
     color: rgb(255, 0, 0);
     background-color: #ffffff;
+ }
+
+ .techs{
+    width: 100%;
+    height: 1080px;
+ }
+
+ 
+
+ .minhas > .mi{
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    color: #9E3D3D;
+    gap: 10px;
+ }
+
+ .mi> span{
+    font-size: 64px;
+    color: #ff0000;
+ }
+
+ .tec{
+    color: #ff0000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+
+ .tec > .gias{
+    color: #ff0000;
+    font-size: 24px;
+     margin-top: 119px;
+ }
+
+ .j{
+   
+    color: #9E3D3D;
+    font-size: 36px;
+ }
+ 
+ .j > .uti{
+    color: white;
+    font-size: 36px;
+ }
+
+ .i-ima{
+   display:flex ;
+    gap: 105px;
+   margin-top: 45px;
+   
+ }
+ .tec{
+    color: #ff0000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+
+ .tec > .gias2{
+    color: #ff0000;
+    font-size: 24px;
+     margin-top: 119px;
+ }
+
+ .atu{
+   
+    color: #9E3D3D;
+    font-size: 36px;
+ }
+ 
+ .atu > .desen{
+    color: white;
+    font-size: 36px;
+ }
+
+ .i-ima2{
+    display:flex ;
+     gap: 105px;
+    margin-top: 85px;
+    justify-content: center;
  }
