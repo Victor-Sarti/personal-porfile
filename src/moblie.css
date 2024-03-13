@@ -3,6 +3,7 @@
    margin: 0;
    text-decoration: none;
    box-sizing: border-box;
+   
 }
 
 header{
@@ -14,7 +15,7 @@ header{
 
 .VI{
     color: #A31010;
-    font-size: 27px;
+    font-size: 23px;
 }
 
 header > .VI{
@@ -30,7 +31,7 @@ nav{
     flex-direction: column;
     flex-wrap: wrap;    
     gap: 10px;
-    margin-top: 15px;
+    margin-top: 35px;
     margin-left: 72px;
     font-size: 15px;
 }
@@ -42,18 +43,20 @@ nav > a{
 main{
     width: 348px;
     height: 227px;
-    border: 1px solid red;
+ 
     display: flex;
 }
 main > span{
-    width: 250px;
+    margin-left: 30px;
+    margin-top: 70px;
+    width: 160px;
     height: 755px;
     display: flex;
     flex-direction: column;
-    
+
     color: #A31010;
-    
-    
+
+
 }
 span > h2{
     font-size: 10px;
@@ -61,10 +64,27 @@ span > h2{
 
 }
 
+h2{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
 .programador{
     font-size: 20px;
  }
 
+ main > .skin{
+    width: 170px;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+    
+    
+ }
  .saiba{
     width: 162px;
     height: 25px;
@@ -74,26 +94,301 @@ span > h2{
     color: rgb(255, 255, 255);
     background-color: #ff0000;
     margin-top: 80px;
-    margin-left: 120px;
+    margin-left: 75px;
 
  }
 
  .redes{
     display: flex;
-    margin-top: 10px;
-    margin-left: 120px;
+    margin-top: 20px;
+    margin-left: 95px;
     width: 20px;
     height: 20px;
     justify-content: start;
  }
-
- main > .skin{
-    width: 170px;
-    height: 168px;
+ .tudo{
     display: flex;
-    justify-content: center;
-    margin-top: 60px;
-    margin-right: 650px;
-    
+    flex-direction: column;
+ padding-top: 289px;
+ padding-right: 252px;
+ }
+
+ .me{
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
  }
+
+ .me > img{
+width: 36px;
+height: 39px;
+
+ }
+
+.ha > h1{
+    font-size: 30px;
+    color: #A31010;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.icon-perfi{
+    margin-top: 190px;
+}
+
+.name{
+    margin-top: 10px;
+}
+
+.name > h1{
+    color: #ee3a1f ;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+.name > h2{
+    margin-top: 10px;
+   width: 367px;
+   height: 35px;
+    color: #ff5232;
+    text-align: center;
+    font-size: 10px;
+}
+
+div > br {
+    display: flex;
+    justify-content: center;
+ }
+
+.skills > span {
+    color: #9E3D3D;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.maiorzão{
+    width: 280px;
+    height: 202px;
+   margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.maiorzão > .card{
+    width: 94px;
+    height: 42px;
+    color: rgb(236, 5, 5);
+    font-size: 36px;
+   
+    display: flex;
+    padding-left: 40px;
+}
+
+
+h1 > p{
+    color:  #000000;
+    display: flex;
+    
+}
+
+.content-circle{
+    display: flex;
+    gap: 5px;
+    width: 100px;
+    height: 20px;
+}
+ 
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.paint{
+    opacity: 0.4;
+}
+
+.card{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+   gap: 10px;
+}
+
+.card > p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+
+.maiorzão > .card-html{
+    width: 94px;
+    height: 45px;
+    color: rgb(236, 5, 5);
+    font-size: 36px;
+  
+    display: flex;
+    padding-left: 40px;
+    
+}
+
+
+.card-html{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+   gap: 10px;
+}
+
+.card-html > p{
+    display: flex;
+    justify-content: center;
+    color: #D12828;
+    font-size: 15px;
+}
+
+
+.content-circle-html{
+    display: flex;
+    gap: 5px;
+}
+
+
+.maiorzão > .card-react{
+    width: 93px;
+    height: 35px;
+    color: rgb(236, 5, 5);
+    font-size: 15px;
+    
+    display: flex;
+    padding-left: 40px;
+}
+
+.card-react{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+   gap: 10px;
+}
+
+.maiorzão > .card-java{
+    width: 93px;
+    height: 33px;
+    color: rgb(236, 5, 5);
+    font-size: 15px;
+    
+    display: flex;
+    padding-left: 40px;
+}
+
+.card-java{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+   gap: 10px;
+}
+
+.maiorzão > .card-javaScript{
+    width: 109px;
+    height: 44px;
+    color: rgb(236, 5, 5);
+    font-size: 36px;
+  
+    display: flex;
+    padding-left: 40px;
+}
+
+.card-javaScript{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+   gap: 10px;
+}
+
+.card-javaScript > p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.maiorzão > .card-css{
+    width: 94px;
+    height: 39px;
+    color: rgb(236, 5, 5);
+    display: flex;
+    padding-left: 40px;
+}
+
+.card-css{
+display: flex;
+flex-direction: column;
+justify-content: center;
+ gap: 10px;
+}
+
+.card-css > p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.maiorzão > .card-my{
+    width: 93px;
+    height: 35px;
+    color: rgb(236, 5, 5);
+    font-size: 36px;
+   
+    display: flex;
+    padding-left: 40px;
+}
+
+.card-my{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+ gap: 10px;
+}
+
+.card-my > p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+
+.maiorzão > .card-fig{
+    width: 93px;
+    height: 35px;
+    color: rgb(236, 5, 5);
+   
+    display: flex;
+    padding-left: 40px;
+}
+
+.card-fig{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+ gap: 10px;
+}
+
+.card-fig > p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
