@@ -42,7 +42,7 @@ nav > a{
     
 }
 
-header > h1{
+header > .sarti{
     display: flex;
     font-size: 36px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -507,3 +507,594 @@ margin-left: 200px;
     margin-top: 85px;
     justify-content: center;
  }
+
+ @media (max-width: 400px) {
+ 
+body{
+ 
+    background-color: rgb(255, 255, 255);
+}
+.sarti{
+    display: flex;
+    color: #A31010;
+    font-size: 30px;
+    width: 161px;
+    height: 33px;
+
+    
+}
+
+
+header{ 
+    width: 100%;
+    height: 85px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    
+ 
+}
+
+
+
+nav{
+    width: 280px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+    gap: 10px;
+    margin-top: 35px;
+    margin-left: 72px;
+    font-size: 18px;
+}
+
+
+
+
+main{
+    width: 348px;
+    height: 227px;
+ 
+    display: flex;
+}
+main > span{
+   
+    width: 100%;
+    height: 374px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-top: 143px;
+    color: #A31010;
+    gap: 10px;
+}
+
+
+span > h2{
+   
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+.programador{
+    font-size: 20px;
+    
+ }
+
+ 
+
+ main > .skin{
+    width: 170px;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    margin-top: 115px;
+
+
+   
+    
+ }
+
+ .saiba{
+    width: 162px;
+    height: 25px;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #ff0000;
+    margin-top: 70px;
+    display: flex;
+
+ justify-content: center;
+    
+
+ }
+
+ .redes{
+    display: flex;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    justify-content: start;
+ }
+ .tudo{
+    display: flex;
+    flex-direction: column;
+ padding-top: 289px;
+ padding-right: 252px;
+ }
+
+ .me{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;
+    padding-left: 200px;
+ }
+
+ .me > img{
+width: 36px;
+height: 39px;
+
+ }
+ .ha > h1{
+    font-size: 30px;
+    color: #A31010;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.icon-perfi{
+    margin-top: 20px;
+}
+
+.name{
+    
+    margin-top: 10px;
+}
+
+.name > h1{
+    color: #ee3a1f ;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+.name > h2{
+    margin-top: 10px;
+    display: flex;
+    padding-right: 14px;
+   width: 367px;
+   height: 35px;
+    color: #ff5232;
+    text-align: center;
+    font-size: 10px;
+}
+
+div > br {
+    display: flex;
+    justify-content: center;
+ }
+
+
+
+ .skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.maiorzão{
+    width: 280px;
+    height: 202px;
+   margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.maiorzão > .card{
+    width: 94px;
+    height: 42px;
+    color: rgb(236, 5, 5);
+    font-size: 36px;
+   
+    display: flex;
+    padding-left: 40px;
+}
+
+
+h1 > p{
+    color:  #000000;
+    display: flex;
+    
+}
+
+.content-circle{
+    display: flex;
+    gap: 5px;
+    width: 100px;
+    height: 20px;
+}
+ 
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.paint{
+    opacity: 0.4;
+}
+
+.card{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+   gap: 10px;
+}
+
+.card > p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+
+.maiorzão > .card-html{
+    width: 94px;
+    height: 45px;
+    color: rgb(236, 5, 5);
+    font-size: 36px;
+  
+    display: flex;
+    padding-left: 40px;
+    
+}
+
+
+.card-html{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+   gap: 10px;
+}
+
+.card-html > p{
+    display: flex;
+    justify-content: center;
+    color: #D12828;
+    font-size: 15px;
+}
+
+
+.content-circle-html{
+    display: flex;
+    gap: 5px;
+}
+
+
+.maiorzão > .card-react{
+    width: 93px;
+    height: 35px;
+    color: rgb(236, 5, 5);
+    font-size: 15px;
+    
+    display: flex;
+    padding-left: 40px;
+}
+
+.card-react{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+   gap: 10px;
+}
+
+.maiorzão > .card-java{
+    width: 93px;
+    height: 33px;
+    color: rgb(236, 5, 5);
+    font-size: 15px;
+    
+    display: flex;
+    padding-left: 40px;
+}
+
+.card-java{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+   gap: 10px;
+}
+
+.maiorzão > .card-javaScript{
+    width: 109px;
+    height: 44px;
+    color: rgb(236, 5, 5);
+    font-size: 36px;
+  
+    display: flex;
+    padding-left: 40px;
+}
+
+.card-javaScript{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+   gap: 10px;
+}
+
+.card-javaScript > p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.maiorzão > .card-css{
+    width: 94px;
+    height: 39px;
+    color: rgb(236, 5, 5);
+    display: flex;
+    padding-left: 40px;
+}
+
+.card-css{
+display: flex;
+flex-direction: column;
+justify-content: center;
+ gap: 10px;
+}
+
+.card-css > p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.maiorzão > .card-my{
+    width: 93px;
+    height: 35px;
+    color: rgb(236, 5, 5);
+    font-size: 36px;
+   
+    display: flex;
+    padding-left: 40px;
+}
+
+.card-my{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+ gap: 10px;
+}
+
+.card-my > p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+
+.maiorzão > .card-fig{
+    width: 93px;
+    height: 35px;
+    color: rgb(236, 5, 5);
+   
+    display: flex;
+    padding-left: 40px;
+}
+
+.card-fig{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+ gap: 10px;
+}
+
+.card-fig > p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+/* .projetos{
+    width: 435px;
+    height: 375px;
+    
+   
+}
+
+
+.olio{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    
+    
+}
+
+.M{
+    color: #9E3D3D;
+    font-size: 27px;
+}
+
+.P{
+    
+    color: #ff0000;
+    font-size: 27PX;
+    display: flex;
+    gap: 30px;
+}
+
+.P > .algunsproj{
+    width: 262px;
+    height: 19px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 10px;
+}
+
+.pro{
+    width: 262px;
+    height: 19px;
+    font-size: 20px;
+}
+
+.botoes{
+display: flex;
+gap: 12px;
+margin-left: 20px;
+    }
+
+
+.Todos{
+    width: 115px;
+    height: 45px;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #ff0000;
+ }
+.web{
+    width: 115px;
+    height: 45px;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    background-color: #ffffff;
+ }
+.Data{
+    width: 135px;
+    height: 45px;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    background-color: #ffffff;
+ }
+.Outros{
+    width: 100px;
+    height: 45px;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    background-color: #ffffff;
+ } */
+
+
+
+ .techs{
+    width: 100%;
+    height: 342px;
+ }
+
+ 
+
+ .minhas > .mi{
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+
+    font-size: 30px;
+    color: #9E3D3D;
+    gap: 10px;
+ }
+
+ .mi> span{
+    font-size: 30px;
+    color: #ff0000;
+ }
+
+ .tec{
+    color: #ff0000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+
+ .tec > .gias{
+    color: #ff0000;
+    font-size: 15px;
+     margin-top: 50px;
+ }
+
+ .j{
+   display: flex;
+   flex-direction: row;
+    color: #9E3D3D;
+    font-size: 25px;
+ }
+ 
+ .j > .uti{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+ }
+
+ .i-ima{
+   display:flex ;
+    gap: 42px;
+   margin-top: 45px;
+   
+ }
+ .tec{
+    color: #ff0000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 200px;
+    
+ }
+
+ .tec > .gias2{
+    color: #ff0000;
+    font-size: 20px;
+     margin-top: 80px;
+ }
+
+ .atu{
+   display: flex;
+   flex-direction: row;
+    color: #9E3D3D;
+    font-size: 20px;
+ }
+ 
+ .atu > .desen{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+ }
+
+ .i-ima2{
+    display:flex ;
+     gap: 42px;
+    margin-top: 55px;
+    justify-content: center;
+    padding-left: 200px;
+ }
+
+
+
+}
