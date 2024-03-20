@@ -519,6 +519,38 @@ background-color: #ffffff;
     justify-content: center;
  }
 
+ footer{
+    width: 100%;
+    height: 60px;
+    background-color:#A31010;
+    
+    
+ }
+
+  footer > .icons{
+   display: flex;
+   justify-content: center;
+   gap: 80px;
+   padding-top: 10px;
+ }
+ .linke{
+    width: 40px;
+    height: 40px;
+ }
+.git{
+    width: 40px;
+    height: 40px;
+}
+.insta{
+    width: 40px;
+    height: 40px;
+}
+
+.what{
+    width: 40px;
+    height: 40px;
+}
+
  @media (max-width: 400px) {
  
 body{
